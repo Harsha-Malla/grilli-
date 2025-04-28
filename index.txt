@@ -7,7 +7,7 @@ This is a Restaurant html template made by codewithsadee
 #---------- TOP BAR ----------#
 
 <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
-Restaurant St, Delicious City, London 9578, UK
+Restaurant St, Rayagada , Odisha 765001
 
 <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
 Daily : 8.00 am to 10.00 pm
@@ -151,46 +151,43 @@ Delicious Menu
 1.
 alt = Greek Salad
 Greek Salad
+Avocados with crab meat, red onion, crab salad red bell pepper...
+₹430
 
-Seasonal
-$25.50
-Tomatoes, green bell pepper, sliced cucumber onion, olives, and feta cheese.
-
-2.
-alt = Lasagne
-Lasagne
-
-$40.00
-Vegetables, cheeses, ground meats, tomato sauce, seasonings and spices
-
-3.
-alt = Butternut Pumpkin
-Butternut Pumpkin
-
-$10.00
-Typesetting industry lorem Lorem Ipsum is simply dummy text of the priand.
-
-4.
 alt = Tokusen Wagyu
 Tokusen Wagyu
+Tomatoes, green bell pepper, sliced cucumber onion, olives...
+₹600
 
-New
-$39.00
-Vegetables, cheeses, ground meats, tomato sauce, seasonings and spices.
+alt = Butternut Pumpkin
+Butternut Pumpkin
+Avocados with crab meat, red onion, crab salad stuffed bell pepper...
+₹500
 
-5.
-alt = Olivas Rellenas
-Olivas Rellenas
-
-$25.00
-Avocados with crab meat, red onion, crab salad stuffed red bell pepper and green bell pepper.
-
-6.
 alt = Opu Fish
 Opu Fish
+Vegetables, cheeses, ground meats, tomato sauce, seasonings...
+₹250
 
-$49.00
-Vegetables, cheeses, ground meats, tomato sauce, seasonings and spices
+alt = Greek Salad
+Greek Salad
+Avocados with crab meat, red onion, crab salad red bell pepper...
+₹550
+
+alt = Tokusen Wagyu
+Tokusen Wagyu
+Tomatoes, green bell pepper, sliced cucumber onion, olives...
+₹600
+
+alt = Butternut Pumpkin
+Butternut Pumpkin
+Avocados with crab meat, red onion, crab salad stuffed bell pepper...
+₹450
+
+alt = Opu Fish
+Opu Fish
+Vegetables, cheeses, ground meats, tomato sauce, seasonings...
+₹300
 
 During winter daily from 7:00 pm to 9:00 pm
 
@@ -249,8 +246,7 @@ Booking Request
 
 Location
 
-Restaurant St, Delicious City,
-London 9578, UK
+Restaurant St,Rayagada , Odisha 765001
 
 Lunch Time
 
@@ -291,14 +287,14 @@ Upcoming Event
 
 alt = Flavour so good you’ll try to eat with your eyes.
 
-15/09/2022
+28/04/2025
 Food, Flavour
 Flavour so good you’ll try to eat with your eyes.
 
-08/09/2022
+28/04/2025
 Healthy Food
 
-03/09/2022
+28/04/2025
 Recipie
 
 View Our Blog
@@ -309,7 +305,7 @@ View Our Blog
 
 alt = grilli home
 
-Restaurant St, Delicious City, London 9578, UK
+Restaurant St, Rayagada , Odisha 765001K
 
 booking@grilli.com
 
@@ -339,11 +335,9 @@ Twitter
 Youtube
 Google Map
 
-&copy; 2022 Grilli. All Rights Reserved | Crafted by
 
-https://github.com/codewithsadee
 
-codewithsadee
+
 
 
 
@@ -367,42 +361,42 @@ Best Special Menu
 alt = Greek Salad
 Greek Salad
 Avocados with crab meat, red onion, crab salad red bell pepper...
-$39.00
+₹430
 
 alt = Tokusen Wagyu
 Tokusen Wagyu
 Tomatoes, green bell pepper, sliced cucumber onion, olives...
-$45.00
+₹600
 
 alt = Butternut Pumpkin
 Butternut Pumpkin
 Avocados with crab meat, red onion, crab salad stuffed bell pepper...
-$15.00
+₹500
 
 alt = Opu Fish
 Opu Fish
 Vegetables, cheeses, ground meats, tomato sauce, seasonings...
-$12.00
+₹250
 
 alt = Greek Salad
 Greek Salad
 Avocados with crab meat, red onion, crab salad red bell pepper...
-$39.00
+₹550
 
 alt = Tokusen Wagyu
 Tokusen Wagyu
 Tomatoes, green bell pepper, sliced cucumber onion, olives...
-$45.00
+₹600
 
 alt = Butternut Pumpkin
 Butternut Pumpkin
 Avocados with crab meat, red onion, crab salad stuffed bell pepper...
-$15.00
+₹450
 
 alt = Opu Fish
 Opu Fish
 Vegetables, cheeses, ground meats, tomato sauce, seasonings...
-$12.00
+₹300
 
 
 alt = feature banner
@@ -410,10 +404,10 @@ alt = feature banner
 Chef Selection
 Lobster Tortellini
 
-Lorem Ipsum is simply dummy text of the printingand typesetting industry lorem Ipsum has been the industrys standard dummy text ever since.
 
-$40.00
-$20.00
+
+
+₹400
 
 
 
@@ -427,9 +421,9 @@ Who We Are
 A modern restaurant with a menu that will make your mouth water. Servicing delicious food 
 since 45 years.
 Enjoy our seasonal menu and experience the beauty of naturalness
-Lorem Ipsum is simply dummy text of the printingand typesetting industry lorem Ipsum has been the industrys standard dummy text ever since the when an unknown printer took a galley of type and scrambled it to make a type specimen book It has survived.
 
-Andrew Joe - Founder
+
+Sudarshan Malla - Founder
 
 Lunch Time
 Monday to Sunday
@@ -440,7 +434,7 @@ Monday to Sunday
 5.30 pm - 11.30 pm
 
 Contact Us
-Restaurant St, Delicious City, London 9578, UK
+Restaurant St, Rayagada , Odisha 765001
 
 +88-123-123456
 reservation@restro.com
