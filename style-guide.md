@@ -8,14 +8,14 @@ Google font
 ``` html
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;900&display=swap"
-  rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
 ```
 
-Material icon
+Ionicon
 
 ``` html
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet" />
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 ```
 
 ---
@@ -23,69 +23,91 @@ Material icon
 ## Colors
 
 ``` css
---imperial-red_12: hsla(357, 86%, 57%, 0.12);
---pacific-blue_12: hsla(188, 78%, 41%, 0.12);
---davys-gray_12: hsla(210, 9%, 31%, 0.12);
---imperial-red: hsl(357, 86%, 57%);
---sonic-sliver: hsl(0, 0%, 47%);
---pacific-blue: hsl(188, 78%, 41%);
---blue-ryb_12: hsla(220, 100%, 50%, 0.12);
---space-cadet: hsl(220, 41%, 20%);
---eerie-black: hsl(214, 10%, 13%);
---davys-gray: hsl(210, 9%, 31%);
---emerald_12: hsla(144, 62%, 53%, 0.12);
---cool-gray: hsl(225, 11%, 59%);
---cultured: hsl(225, 20%, 96%);
---blue-ryb: hsl(220, 100%, 50%);
---black_08: hsla(0, 0%, 0%, 0.06);
---black_12: hsla(0, 0%, 0%, 0.12);
---coral_12: hsla(15, 100%, 65%, 0.12);
---sunglow: hsl(44, 100%, 61%);
---emerald: hsl(144, 62%, 53%);
---onyx-2: hsl(210, 10%, 23%);
---coral: hsl(15, 100%, 65%);
---white: hsl(0, 0%, 100%);
---onyx: hsl(207, 8%, 21%);
+--gold-crayola: hsl(38, 61%, 73%);
+--quick-silver: hsla(0, 0%, 65%, 1);
+--davys-grey: hsla(30, 3%, 34%, 1);
+--smoky-black-1: hsla(40, 12%, 5%, 1);
+--smoky-black-2: hsla(30, 8%, 5%, 1);
+--smoky-black-3: hsla(0, 3%, 7%, 1);
+--eerie-black-1: hsla(210, 4%, 9%, 1);
+--eerie-black-2: hsla(210, 4%, 11%, 1);
+--eerie-black-3: hsla(180, 2%, 8%, 1);
+--eerie-black-4: hsla(0, 0%, 13%, 1);
+--white: hsla(0, 0%, 100%, 1);
+--white-alpha-20: hsla(0, 0%, 100%, 0.2);
+--white-alpha-10: hsla(0, 0%, 100%, 0.1);
+--black: hsla(0, 0%, 0%, 1);
+--black-alpha-80: hsla(0, 0%, 0%, 0.8);
+--black-alpha-15: hsla(0, 0%, 0%, 0.15);
+```
+
+## Gradient color
+
+``` css
+--loading-text-gradient: linear-gradient(90deg, transparent 0% 16.66%, var(--smoky-black-3) 33.33% 50%,  transparent 66.66% 75%);
+--gradient-1: linear-gradient(to top,hsla(0, 0%, 0%, 0.9),hsla(0, 0%, 0%, 0.7),transparent);
 ```
 
 ## Typography
 
 ``` css
---ff-vietnam: "Be Vietnam Pro", sans-serif;
+--fontFamily-forum: 'Forum', cursive;
+--fontFamily-dm_sans: 'DM Sans', sans-serif;
 
---fs-1: 1.563rem;
---fs-2: 1.5rem;
---fs-3: 1.25rem;
---fs-4: 1.078rem;
---fs-5: 1rem;
---fs-6: 0.938rem;
---fs-7: 0.875rem;
---fs-8: 0.844rem;
---fs-9: 0.813rem;
---fs-10: 0.769rem;
+--fontSize-display-1: calc(1.3rem + 6.7vw);
+--fontSize-headline-1: calc(2rem + 2.5vw);
+--fontSize-headline-2: calc(1.3rem + 2.4vw);
+--fontSize-title-1: calc(1.6rem + 1.2vw);
+--fontSize-title-2: 2.2rem;
+--fontSize-title-3: 2.1rem;
+--fontSize-title-4: calc(1.6rem + 1.2vw);
+--fontSize-body-1: 2.4rem;
+--fontSize-body-2: 1.6rem;
+--fontSize-body-3: 1.8rem;
+--fontSize-body-4: 1.6rem;
+--fontSize-label-1: 1.4rem;
+--fontSize-label-2: 1.2rem;
 
---fw-500: 500;
---fw-600: 600;
+--weight-regular: 400;
+--weight-bold: 700;
+
+--lineHeight-1: 1em;
+--lineHeight-2: 1.2em;
+--lineHeight-3: 1.5em;
+--lineHeight-4: 1.6em;
+--lineHeight-5: 1.85em;
+--lineHeight-6: 1.4em;
+
+--letterSpacing-1: 0.15em;
+--letterSpacing-2: 0.4em;
+--letterSpacing-3: 0.2em;
+--letterSpacing-4: 0.3em;
+--letterSpacing-5: 3px;
 ```
 
-## Transition
+## Spacing
 
 ``` css
---transition: 0.25s ease;
---cubic-out: cubic-bezier(0.45, 0.85, 0.5, 1);
---cubic-in: cubic-bezier(0.5, 0, 0.50, 0.95);
-```
-
-## Radius
-
-``` css
---radius-6: 6px;
+--section-space: 70px;
 ```
 
 ## Shadow
 
 ``` css
---shadow-1: 0 12px 20px hsla(210, 10%, 23%, 0.07);
---shadow-2: 0 2px 10px hsla(0, 0%, 0%, 0.04);
---shadow-3: 0 2px 20px var(--black_08);
+--shadow-1: 0px 0px 25px 0px hsla(0, 0%, 0%, 0.25);
+```
+
+## Border Radius
+
+``` css
+--radius-24: 24px;
+--radius-circle: 50%;
+```
+
+## Transition
+
+``` css
+--transition-1: 250ms ease;
+--transition-2: 500ms ease;
+--transition-3: 1000ms ease;
 ```
